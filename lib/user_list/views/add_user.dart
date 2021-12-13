@@ -18,7 +18,7 @@ class AddUserScreen extends StatelessWidget {
                     if (await userViewModel.addUser() ?? true)
                       {Navigator.pop(context)}
                   },
-              icon: Icon(Icons.save))
+              icon: Icon(Icons.add))
         ],
       ),
       body: Container(
