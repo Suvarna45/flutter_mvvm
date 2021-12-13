@@ -11,7 +11,7 @@ class AddUserScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        title: Text('Add User'),
+        title: Text('Add User Info'),
         actions: [
           IconButton(
               onPressed: () async => {
